@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <script>
+        // Fetch and insert the navbar content
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('afterbegin', data);
+            });
+    </script>
+    </div>
+
+    <div class="container">
+        <div class="about-section" id="about">
+            <h2>Information</h2>
+            <p>Hi, I'm Spat1o, a random kid on the internet from <a href="https://s.nia.gov.cn/mps/bszy/wgrcrj/yjjl/201903/t20190313_1008.html" target="_blank" style="color: red;">China</a> (no i am not a spy). I love gaming and talking with people. I started playing Destiny 2 at mid september of 2023, which is my favorite game. I make some videos and post them on youtube sometimes, you should <a href="https://youtube.com/@Spat1o" target="_blank" style="color: white;">check it out</a>. I know a bit about web development and is currently learning more about javascript. Again, I like talkin with people, if you need me, you can contact me by friending me on discord. (Spat1o)</p>
+            <div class="iframeContainer">
+                <iframe src="https://raid.report/pc/4611686018526880614" scrolling="no" class="iframecontent"></iframe>
+            </div>
+            <div class="dropdown">
+                <button>Links</button>
+                <div class="content">
+                    <a href="https://raid.report/pc/4611686018526880614" target="_blank">Raid report</a>
+                    <a href="https://destinytracker.com/destiny-2/profile/steam/4611686018526880614/overview" target="_blank">Destiny Tracker</a>
+                    <a href="https://gm.report/4611686018526880614" target="_blank">Grandmaster Report</a>
+                    <a href="https://youtube.com/@spat1o" target="_blank">Youtube</a>
+                    <a href="https://https://github.com/Spat1o" target="_blank">Github</a>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        // Add event listener for scroll
+        window.addEventListener('scroll', function () {
+            var navbar = document.getElementById('navbar');
+
+            // Check if the user has scrolled down
+            if (window.scrollY > 50) {
+                navbar.style.top = '-50px'; // Move the navbar up
+            } else {
+                navbar.style.top = '0'; // Bring the navbar back to the top
+            }
+        });
+    </script>
+</body>
+
+</html>
